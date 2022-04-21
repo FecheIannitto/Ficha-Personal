@@ -1,0 +1,105 @@
+.container {
+    background-color: rgb(219, 167, 70);
+    position: relative;
+    overflow: hidden;
+    font-size: 1rem;
+    font-family: sans-serif;
+    right: 0px;
+}
+
+.card {
+    background-color: white;
+    position: relative;
+    width: 400px;
+    height: 450px;
+    /*border: 15px solid green;*/
+    text-align: center;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    top: 100px;
+    
+}
+
+.camuflado {
+    position: absolute;
+    width: 400px;
+    height: 125px;
+    left: 0px;
+    border-radius: 20px;
+}
+
+.age_orne {
+    color: hsl(227, 10%, 46%);
+}
+
+.orne {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    top: 70px;
+    left: 150px;
+    position: absolute;
+    border: 5px solid white;
+}
+
+.goku_izq {
+    top: -100px;
+    left: -100px;
+    position: absolute;
+}
+
+.goku_der {
+    top: -100px;
+    right: -100px;
+    position: absolute;
+} 
+
+.card_text {
+    color: hsl(227, 10%, 46%);
+}
+
+.card_stats {
+    display: inline-block;
+    margin: 0 0.5em;
+    width: 100px;
+    text-align: center;
+}
+
+.information {
+    text-align: bottom;
+    bottom: -300px;
+}
+
+.foto_1 {
+    position: relative;
+    height: 120px;
+    text-align: center;
+}
+
+.name_suname {
+    position: absolute;
+    top: 200px;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    border-bottom: 2px solid rgb(0 0 0 / 0.1);
+}
+
+.card_footer {
+    position: absolute;
+    bottom: 35px;
+    width: 100%;
+    text-align: center;
+}
+
+.name {
+    margin: 0;
+    margin-bottom: 00.5em;
+}
+
+.card_number {
+    margin-bottom: 0.5em;
+    font-size: 1.8rem;
+}
